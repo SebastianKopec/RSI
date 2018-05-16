@@ -1,2 +1,0 @@
-(internal-error " - Caused by:  Class HelloWorldAgent for agent ( agent-identifier :name Aga@192.168.0.13:1099/JADE ) not found 
-- Caused by:  HelloWorldAgent"))
