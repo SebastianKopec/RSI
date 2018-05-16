@@ -1,0 +1,5 @@
+Nazwa Miasta:  krk
+Wielkosc[km^2]:
+  9000
+Populacja:  400
+Wysokość[m n.p.m.]:  23.0
