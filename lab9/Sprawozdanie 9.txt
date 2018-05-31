@@ -1,0 +1,10 @@
+Laboratorium 9  
+Komunikacja
+
+1. Utowrzy³em agenta ag_odb, którego zadniem jest cykilczne odbieranie wiadomoœci,  
+sprawdzenie jakiego s¹ typu (if(msg.getPerformative() == ACLMessage.REQUEST Or CFP)  
+i wys³anie komunikatu zwrotnego (reply.setContent("wykonalem"); send(reply);) Or (reply.setContent("raz jeszcze"); send(reply);).  
+
+2. Utworzy³em agenta ag_wys_odb, który losuje liczbe z przedzia³u 0 1 (int i = (int)(Math.random()*2); i wysy³a odpowiedni komunikat do agenta z punktu 1, nastêpnie odbiera odpowiedŸ, jeœli jest typu INFORM to agent usuwa siê.  
+
+3. Utworzy³em agenta ag_pl, który po otrzymaniu wiadomoœci w jêzyku ustawionym na "polski" wypisuje j¹ na ekran.  
