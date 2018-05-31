@@ -1,0 +1,20 @@
+Laboratorium 6
+Podstawy JADE
+
+1. Kompilacja Agentow:
+javac HelloWorldAgent.java
+java jade.Boot -gui Ala:HelloWorldAgent
+Stworzenie odpowiedniego agenta 
+
+2. Skompilowa³em i uruchomi³em w g³ównym kontenerze agenta o nazwie "Ala" (HelloWorldAgent.java) 
+wypisuj¹cego na ekran "Hello World!" oraz nazwê agenta.
+
+3. Za pomoc¹ polecenia "jade.Boot -container -host" doda³em drugi kontener, w którym uruchomi³em agenta "hello"
+- przenios³em agenta do g³ównego kontenera
+- sklonowa³em
+- usun¹³em
+
+4. W nowym kontenerze uruchomi³em agenta "TimeAgent"-Agent6.java, który po odczekaniu 2 min usuwa siê.
+
+5. Do kontenera z poprzedniego punktu doda³em agenta "ModifyHello.java",agent zosta³ zmodyfikowany w ten sposob ze juz sam
+sie nie usuwa
