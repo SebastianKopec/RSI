@@ -1,0 +1,18 @@
+Sprawozdanie 7
+
+1. Utworzyłem agenta klasa_1, który wypisuję "Startuje!" oraz "Zaraz sie usune!", a następnie się usuwa.
+
+2. Utworzyłem agenta klasa_2 na podstawie agenta klasa_1, który implementuje zachowanie wypisujące "Wykonuje sie agent".
+
+3. Utworzyłem agenta klasa_3, który implementuje zachowanie wypisujące cyklicznie "Wykonywanie".
+
+4. Utworzyłem agenta klasa_4, który wypisuję w pętli switch trzy kroki i usuwa zachowanie.
+
+5. Utworzyłem agenta klasa_5, który po podaniu ujemnej liczby usuwa zachowanie iwypisuje "konczenie".
+
+6. Utworzyłem agenta klasa_6, dodałem wypisywanie "Agent ... startuje" oraz "zachowanie zakonczone" do kodu z klasa_5.
+
+7. Utworzyłem agenta klasa_7, który wypisuje "krok pierwszy" oraz "krok drugi" w odpowiednim miejscu.
+
+8. klasa_8 wypisuje "maly tick" oraz "duzy tick" co odpowiednio 2 i 5 sekund,
+po 50 sekundach usuwa "duzy tick", a po 100 agent zostaje usuniety.
