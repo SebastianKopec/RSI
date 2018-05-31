@@ -1,0 +1,18 @@
+Sprawozdanie 8
+
+1. Utworzy³em agenta klasa_1_2, którego zadaniem jest symulacja maszyny stanowej (5 stanów)  
+		- fsm.registerFirstState(new NamePrintBehaviour(), A);
+		- fsm.registerState(new GenerateNumberBehaviour(2), B);  
+		- fsm.registerState(new NamePrintBehaviour(), C);
+		- fsm.registerState(new GenerateNumberBehaviour(2), D); 
+		- fsm.registerLastState(new NamePrintBehaviour(), E);  
+	Z stanu B oraz D mo¿na obraæ dwie drogi, które wybierane s¹ na podstawie losowania  
+		- fsm.registerTransition(B, D, 0);	
+		- fsm.registerTransition(B, C, 1);
+	Przejœcie ze stanu B do D wymaga wylosowania liczby 0, z B do C liczby 1
+
+2. Utworzy³em agenta klasa_2_3, który przy pomocy funkcji ParallelBehaviour() oraz addSubBehaviour() wykonuje równolegle 3 zadania genereyczne.
+
+3. Utworzy³em agenta klasa_2_4, który przy pomocy funkcji SequentialBehaviour() oraz addSubBehaviour() wykonuje sekwencyjnie 3 zadania genereyczne.
+
+4. Utworzy³em agenta klasa_2_5, który wykonuje dwa zachowania cykliczne w dwóch osobnych w¹tkach.
